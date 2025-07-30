@@ -1,40 +1,40 @@
-# 📦 react-async-retry
+# react-async-retry
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A simple React hook to retry failed async actions automatically great for handling failed requests, flaky connections, and offline scenarios.
 
-> ⚡ Automatically persists and retries when the browser goes back online.
+> Automatically persists and retries when the browser goes back online.
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ Retry failed async functions
-- ⏱ Configurable retry delay and max attempts
-- 🔁 Auto-retries in the background
-- 🧠 Persists across page reloads using `localStorage`
-- 🧹 Hook-based API for React
+- Retry failed async functions
+- Configurable retry delay and max attempts
+- Auto-retries in the background
+- Persists across page reloads using `localStorage`
+- Hook-based API for React
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
-npm install react-retry-queue uuid
+npm install react-async-retry uuid
 ```
 
-> 💡 `react` must be installed in your project. Compatible with React 17, 18, and 19.
+> `react` must be installed in your project. Compatible with React 17, 18, and 19.
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Basic Example
 
 ```tsx
 import React from "react";
-import { useRetryQueue } from "react-retry-queue";
+import { useRetryQueue } from "react-async-retry";
 
 const SaveButton = () => {
   const { enqueue } = useRetryQueue();
@@ -65,7 +65,7 @@ const SaveButton = () => {
 
 ---
 
-## ⚙️ API
+## ⚙API
 
 ### `enqueue(fn, options?)`
 
@@ -81,7 +81,7 @@ Retries an asynchronous function on failure.
 
 ---
 
-## 🥪 Running Tests
+## Running Tests
 
 The library uses **Jest** and **@testing-library/react** for tests.
 
@@ -92,10 +92,10 @@ npm test
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-react-retry-queue/
+react-async-retry/
 ├── src/
 │   ├── index.ts
 │   ├── queueManager.ts
@@ -110,7 +110,7 @@ react-retry-queue/
 
 ---
 
-## 🧹 Use Cases
+## Use Cases
 
 - Retry failed network requests
 - Queue up actions while offline
@@ -119,19 +119,19 @@ react-retry-queue/
 
 ---
 
-## 🛡 React Compatibility
+## React Compatibility
 
 This library is compatible with:
 
-- ✅ React 17
-- ✅ React 18
-- ✅ React 19
+- React 17
+- React 18
+- React 19
 
 Declared as a `peerDependency` to avoid conflicts.
 
 ---
 
-## 📄 License
+## License
 
 MIT © Abdoullah Ndao
 
