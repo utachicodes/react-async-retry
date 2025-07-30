@@ -1,8 +1,8 @@
-# 📦 react-retry-queue
+# 📦 react-async-retry
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A lightweight React hook and utility to retry failed async actions automatically — ideal for handling failed requests, flaky connections, and offline scenarios.
+A simple React hook to retry failed async actions automatically great for handling failed requests, flaky connections, and offline scenarios.
 
 > ⚡ Automatically persists and retries when the browser goes back online.
 
@@ -133,4 +133,5 @@ Declared as a `peerDependency` to avoid conflicts.
 
 ## 📄 License
 
-MIT © Eze Williams Ezebuilo
+MIT © Abdoullah Ndao
+
