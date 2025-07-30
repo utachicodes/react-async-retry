@@ -1,5 +1,5 @@
 {
-  "name": "react-retry-queue",
+  "name": "react-async-retry",
   "version": "1.0.0",
   "description": "A simple retry queue hook and utility for retrying async actions in React.",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mysticwillz/react-retry-queue.git"
+    "url": "https://github.com/utachicodes/react-async-retry.git"
   },
   "keywords": [
     "react",
@@ -20,7 +20,7 @@
     "offline",
     "resilient"
   ],
-  "author": "Eze Williams Ezebuilo",
+  "author": "Abdoullah Ndao",
   "license": "MIT",
   "dependencies": {
     "uuid": "^9.0.0"
